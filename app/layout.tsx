@@ -9,25 +9,25 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "ぷらっとハウス北新宿 | 大久保駅徒歩10分 80㎡3LDK戸建て 最大10名 民泊",
+  title: "ぷらっとハウス渋谷（道玄坂）| 渋谷駅徒歩5分 35㎡ 最大5名 民泊",
   description:
-    "大久保駅（JR総武線）徒歩10分・東中野駅徒歩7分。80㎡の3LDK戸建て一棟貸切・最大10名。Netflix・キッチン・浴槽・ソファーベッド完備。新宿観光・グループ旅行に最適。",
+    "渋谷駅徒歩5分・神泉駅徒歩3分。35㎡の一棟貸切・最大5名。ダブルベッド＋ソファーベッド完備。渋谷・道玄坂エリアのプライベートステイ。",
   keywords:
-    "ぷらっとハウス北新宿, 大久保 民泊, 北新宿 宿泊, 新宿 戸建て 民泊, 新宿 グループ宿泊, 東中野 民泊, Kitashinjuku accommodation, Tokyo group stay",
+    "ぷらっとハウス渋谷, 道玄坂 民泊, 渋谷 宿泊, 渋谷区 民泊, 神泉 民泊, Shibuya accommodation, Tokyo group stay",
   openGraph: {
-    title: "ぷらっとハウス北新宿 | 大久保駅10分 80㎡3LDK 最大10名",
+    title: "ぷらっとハウス渋谷（道玄坂）| 渋谷駅5分 35㎡ 最大5名",
     description:
-      "大久保駅10分・東中野駅7分。80㎡3LDK戸建て一棟貸切・最大10名。Netflix・キッチン・浴槽完備。",
-    url: "https://kitashinjuku.plat-house.jp",
-    siteName: "Plat House Kitashinjuku",
+      "渋谷駅5分・神泉駅3分。35㎡一棟貸切・最大5名。ダブルベッド＋ソファーベッド完備。",
+    url: "https://shibuya-dogenzaka.plat-house.jp",
+    siteName: "Plat House Shibuya Dogenzaka",
     locale: "ja_JP",
     type: "website",
   },
   alternates: {
-    canonical: "https://kitashinjuku.plat-house.jp",
+    canonical: "https://shibuya-dogenzaka.plat-house.jp",
     languages: {
-      "ja": "https://kitashinjuku.plat-house.jp",
-      "en": "https://kitashinjuku.plat-house.jp/en",
+      "ja": "https://shibuya-dogenzaka.plat-house.jp",
+      "en": "https://shibuya-dogenzaka.plat-house.jp/en",
     },
   },
 };
@@ -43,25 +43,23 @@ export default function RootLayout({
         <Script id="json-ld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LodgingBusiness",
-          "name": "ぷらっとハウス北新宿",
-          "url": "https://kitashinjuku.plat-house.jp",
+          "name": "ぷらっとハウス渋谷（道玄坂）",
+          "url": "https://shibuya-dogenzaka.plat-house.jp",
           "telephone": "08070583086",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "北新宿４－２１－１７",
-            "addressLocality": "新宿区",
+            "streetAddress": "道玄坂１－１７－９",
+            "addressLocality": "渋谷区",
             "addressRegion": "東京都",
-            "postalCode": "169-0074",
+            "postalCode": "150-0044",
             "addressCountry": "JP"
           },
           "checkinTime": "16:00",
           "checkoutTime": "11:00",
-          "priceRange": "¥30,000〜¥70,000",
+          "priceRange": "¥15,000〜¥50,000",
           "amenityFeature": [
-            { "@type": "LocationFeatureSpecification", "name": "Netflix", "value": true },
             { "@type": "LocationFeatureSpecification", "name": "Nintendo Switch", "value": true },
             { "@type": "LocationFeatureSpecification", "name": "キッチン", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "浴槽", "value": true },
             { "@type": "LocationFeatureSpecification", "name": "ポケットWi-Fi", "value": true }
           ]
         }) }} />
