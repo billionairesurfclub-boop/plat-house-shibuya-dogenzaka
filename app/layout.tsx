@@ -9,25 +9,25 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "クリエイトスペース東新宿 新宿歌舞伎町Ⅱ | 東新宿駅5分 38㎡ 最大5名 民泊",
+  title: "ぷらっとハウス渋谷Ⅱ | 渋谷駅徒歩10分 50㎡戸建て 最大5名 民泊",
   description:
-    "東新宿駅（東京メトロ副都心線・都営大江戸線）徒歩5分。38㎡の広々2客室（各最大5名）。Netflix・キッチン・浴槽・ソファーベッド完備。新宿・歌舞伎町へのアクセス抜群。",
+    "渋谷駅（JR・東急・東京メトロ）徒歩10分。50㎡の戸建て一棟貸切・最大5名。Netflix・キッチン・浴槽・ソファーベッド完備。渋谷観光・グループ旅行に最適。",
   keywords:
-    "クリエイトスペース東新宿, 新宿歌舞伎町 民泊, 東新宿 民泊, 東新宿駅 宿泊, 新宿 グループ宿泊, Higashi-Shinjuku accommodation, Tokyo group stay",
+    "ぷらっとハウス渋谷Ⅱ, 渋谷 民泊, 渋谷駅 宿泊, 渋谷 戸建て 民泊, 渋谷 グループ宿泊, Shibuya accommodation, Tokyo group stay",
   openGraph: {
-    title: "クリエイトスペース東新宿 新宿歌舞伎町Ⅱ | 東新宿駅5分 38㎡ 最大5名",
+    title: "ぷらっとハウス渋谷Ⅱ | 渋谷駅10分 50㎡戸建て 最大5名",
     description:
-      "東新宿駅5分。38㎡の2客室・各最大5名。Netflix・キッチン・浴槽・ソファーベッド完備。",
-    url: "https://higashishinjuku.create-space.jp",
-    siteName: "Create Space Higashi-Shinjuku",
+      "渋谷駅10分。50㎡戸建て一棟貸切・最大5名。Netflix・キッチン・浴槽・ソファーベッド完備。",
+    url: "https://shibuya2.plat-house.jp",
+    siteName: "Plat House Shibuya II",
     locale: "ja_JP",
     type: "website",
   },
   alternates: {
-    canonical: "https://higashishinjuku.create-space.jp",
+    canonical: "https://shibuya2.plat-house.jp",
     languages: {
-      "ja": "https://higashishinjuku.create-space.jp",
-      "en": "https://higashishinjuku.create-space.jp/en",
+      "ja": "https://shibuya2.plat-house.jp",
+      "en": "https://shibuya2.plat-house.jp/en",
     },
   },
 };
@@ -43,20 +43,20 @@ export default function RootLayout({
         <Script id="json-ld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LodgingBusiness",
-          "name": "クリエイトスペース東新宿 新宿歌舞伎町Ⅱ",
-          "url": "https://higashishinjuku.create-space.jp",
+          "name": "ぷらっとハウス渋谷Ⅱ",
+          "url": "https://shibuya2.plat-house.jp",
           "telephone": "08070583086",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "新宿７－１１－１１",
-            "addressLocality": "新宿区",
+            "streetAddress": "東１－６－１１",
+            "addressLocality": "渋谷区",
             "addressRegion": "東京都",
-            "postalCode": "160-0022",
+            "postalCode": "150-0011",
             "addressCountry": "JP"
           },
           "checkinTime": "16:00",
           "checkoutTime": "11:00",
-          "priceRange": "¥15,000〜¥35,000",
+          "priceRange": "¥18,000〜¥40,000",
           "amenityFeature": [
             { "@type": "LocationFeatureSpecification", "name": "Netflix", "value": true },
             { "@type": "LocationFeatureSpecification", "name": "Nintendo Switch", "value": true },
