@@ -89,7 +89,14 @@ export const rooms = [
       ja: "35㎡の一棟貸切。ダブルベッドとソファーベッドを完備し、最大5名様でご利用いただけます。渋谷駅徒歩5分の好立地です。",
       en: "Entire 35㎡ house. Features a double bed and sofa bed. Accommodates up to 5 guests. 5 min walk from Shibuya Station.",
     },
-    images: [],
+    images: [
+    "/images/photo-01.jpg",
+    "/images/photo-02.jpg",
+    "/images/photo-03.jpg",
+    "/images/photo-04.jpg",
+    "/images/photo-05.jpg",
+    "/images/photo-06.jpg"
+  ],
   },
   {
     id: "room-a",
@@ -101,7 +108,14 @@ export const rooms = [
       ja: "ぷらっとハウス渋谷（道玄坂）の客室です。",
       en: "Room at Plat House Shibuya (Dogenzaka).",
     },
-    images: [],
+    images: [
+    "/images/photo-01.jpg",
+    "/images/photo-02.jpg",
+    "/images/photo-03.jpg",
+    "/images/photo-04.jpg",
+    "/images/photo-05.jpg",
+    "/images/photo-06.jpg"
+  ],
   }
 ];
 
