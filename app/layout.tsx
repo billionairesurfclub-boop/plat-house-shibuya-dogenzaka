@@ -9,6 +9,9 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
+  verification: {
+    google: "gXHCgYW1liWYzDHLdMnZqsms3IllJliPGWeecgZRK5E",
+  },
   title: "ぷらっとハウス渋谷（道玄坂）| 渋谷駅徒歩5分 35㎡ 最大5名 民泊",
   description:
     "渋谷駅徒歩5分・神泉駅徒歩3分。35㎡の一棟貸切・最大5名。ダブルベッド＋ソファーベッド完備。渋谷・道玄坂エリアのプライベートステイ。",
