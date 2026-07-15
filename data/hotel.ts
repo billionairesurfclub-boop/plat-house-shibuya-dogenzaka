@@ -27,7 +27,7 @@ export const hotel = {
   cancelPolicy: "7日前まで無料キャンセル可能",
   languages: ["ja", "en"],
   googleMapUrl: "",
-  bookingUrl: "https://beds24.com/booking.php?propid=303527&referer=BookingLink",
+  bookingUrl: "https://beds24.com/booking.php?propid=240502&referer=BookingLink",
   rating: {
     google: 0,
     bookingCom: 0,
