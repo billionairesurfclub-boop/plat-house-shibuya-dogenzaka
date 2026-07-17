@@ -14,6 +14,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${post.title} | ぷらっとハウス渋谷（道玄坂）`,
     description: post.excerpt,
+    alternates: {
+      canonical: `https://shibuya-dogenzaka.plat-house.jp/blog/${slug}`,
+    },
   };
 }
 
